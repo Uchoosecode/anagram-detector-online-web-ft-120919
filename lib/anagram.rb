@@ -9,7 +9,7 @@ class Anagram
   end
   
   def detector(array)
-    words.each.tap {|word| word.spilt.sort}
+    puts array
    binding.pry 
     word
      
