@@ -8,7 +8,7 @@ class Anagram
     @words = words
   end
   
-  def detector(words)
+  def detector(array)
     words.each.tap {|word| word.spilt.sort}
    binding.pry 
     word
