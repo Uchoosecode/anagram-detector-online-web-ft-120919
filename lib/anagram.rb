@@ -10,7 +10,7 @@ class Anagram
   
   def match(array)
     puts array
-   binding.pry 
+  # binding.pry 
     word
      
   end
